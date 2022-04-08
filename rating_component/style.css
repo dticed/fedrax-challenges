@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141519;
+  width: 100vw;
+  height: 100vh;
+}
+
+#ratingBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #212832;
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  padding: 20px;
+  color: #ebeef2;
+}
+
+#headerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#headerBox > * {
+  padding-top: 10px;
+}
+
+
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262f38;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.container > .circle {
+  margin: 13px;
+}
+
+button {
+  width: 360px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #fc7613;
+  border: none;
+  font-family: 'Overpass';
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #fc7613;
+}
+
+p {
+  color: #808791;
+}
+
+h2 {
+  font-family: 'Overpass';
+}
