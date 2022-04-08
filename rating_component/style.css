@@ -17,25 +17,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
   background-color: #212832;
   width: 400px;
   height: 400px;
   border-radius: 20px;
-  padding: 20px;
   color: #ebeef2;
+  padding: 10px;
 }
 
-#headerBox {
+.header-box {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: flex-start;
+  padding-left: 20px;
+  height: 50%;
 }
-
-#headerBox > * {
-  padding-top: 10px;
-}
-
-
 
 .circle {
   display: flex;
@@ -47,16 +45,17 @@
   border-radius: 100%;
 }
 
-
-.container{
+.body-box{
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-around;
-  margin: 20px;
+  width: 100%;
 }
 
-.container > .circle {
-  margin: 13px;
+.footer-box {
+  display: flex;
+  flex-direction: row;
 }
 
 button {
@@ -82,6 +81,6 @@ p {
   color: #808791;
 }
 
-h2 {
+h2, p {
   font-family: 'Overpass';
 }
