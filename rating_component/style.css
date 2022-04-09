@@ -93,3 +93,25 @@ p {
 h2, p {
   font-family: 'Overpass';
 }
+
+.submit-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  text-align: center;
+}
+
+.rate-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 30px;
+  background-color: #262d35;
+  color: #fc7613;
+  font-family: 'Overpass';
+  font-size: 0.9rem;
+  border-radius: 20px;
+}
