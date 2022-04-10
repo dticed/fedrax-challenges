@@ -15,7 +15,7 @@ h2.innerText = "Thank you!"
 const p = document.createElement('p')
 p.innerText = "We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch."
 rateBox.classList.add('submit-box')
-img.src = "src/images/illustration-thank-you.svg"
+img.src = "/src/images/illustration-thank-you.svg"
 rateBox.append(img)
 rateBox.append(smallBox)
 rateBox.append(h2)
