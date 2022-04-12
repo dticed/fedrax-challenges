@@ -19,7 +19,7 @@
   justify-content: center;
   align-items: center;
   width: 600px;
-  height: 400px;
+  margin: 10px;
 }
 
 .card-content {
@@ -44,8 +44,6 @@ h5 {
   font-size: 28px;
   text-align: center;
   font-weight: 800;
-  /* text-overflow: ellipsis;
-  overflow: hidden; */
 }
 
 .lines {
@@ -68,11 +66,46 @@ button {
   border: none;
 }
 
-button:hover{
+button:hover {
   background-color: #4dffa9de;
 }
 
 button:active {
   background-color: #4dffa9de;
   transform: translateY(2px);
+}
+
+.image-small {
+  display: none;
+}
+
+
+@media (max-width: 375px) {
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 400px;
+  }
+  
+  h5 {
+    color: #4dffa9;
+    letter-spacing: 5px;
+    margin-bottom: 35px;
+  }
+
+  .lines {
+    margin-top: 35px;
+  }
+
+  .image-big {
+    display: none;
+  }
+
+  .image-small {
+    display: flex;
+  }
+  
 }
