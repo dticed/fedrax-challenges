@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #202632;
+  font-family: 'Manrope', sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 400px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #313a49;
+  border-radius: 15px;
+  min-height: 300px;
+  padding: 0 30px;
+}
+
+h5 {
+  color: #4dffa9;
+  letter-spacing: 5px;
+  margin-top: 35px;
+}
+
+.advice-text {
+  color: #ccdee8;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 800;
+  /* text-overflow: ellipsis;
+  overflow: hidden; */
+}
+
+.lines {
+  margin-bottom: 35px;
+}
+
+.card-logo {
+  display: flex;
+  margin-top: -25px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #4dffa9;
+  border-radius: 50%;
+  border: none;
+}
+
+button:hover{
+  background-color: #4dffa9de;
+}
+
+button:active {
+  background-color: #4dffa9de;
+  transform: translateY(2px);
+}
