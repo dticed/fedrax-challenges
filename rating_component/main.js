@@ -1,7 +1,5 @@
 import Image from './src/images/illustration-thank-you.svg'
 
-console.log(Image)
-
 const ratingButtons = document.querySelector('.body-box').childNodes
 
 const headerbox = document.querySelector('.header-box')
@@ -19,7 +17,7 @@ h2.innerText = "Thank you!"
 const p = document.createElement('p')
 p.innerText = "We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch."
 rateBox.classList.add('submit-box')
-img.src = "/src/images/illustration-thank-you.svg"
+img.src = Image
 rateBox.append(img)
 rateBox.append(smallBox)
 rateBox.append(h2)
