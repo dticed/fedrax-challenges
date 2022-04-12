@@ -1,3 +1,7 @@
+import Image from './src/images/illustration-thank-you.svg'
+
+console.log(Image)
+
 const ratingButtons = document.querySelector('.body-box').childNodes
 
 const headerbox = document.querySelector('.header-box')
